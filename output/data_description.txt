@@ -1,0 +1,51 @@
+       credit.policy     int.rate  installment  log.annual.inc          dti         fico  days.with.cr.line     revol.bal   revol.util  inq.last.6mths  delinq.2yrs      pub.rec  not.fully.paid
+count    9578.000000  9578.000000  9578.000000     9578.000000  9578.000000  9578.000000        9578.000000  9.578000e+03  9578.000000     9578.000000  9578.000000  9578.000000     9578.000000
+mean        0.804970     0.122640   319.089413       10.932117    12.606679   710.846314        4560.767197  1.691396e+04    46.799236        1.577469     0.163708     0.062122        0.160054
+std         0.396245     0.026847   207.071301        0.614813     6.883970    37.970537        2496.930377  3.375619e+04    29.014417        2.200245     0.546215     0.262126        0.366676
+min         0.000000     0.060000    15.670000        7.547502     0.000000   612.000000         178.958333  0.000000e+00     0.000000        0.000000     0.000000     0.000000        0.000000
+25%         1.000000     0.103900   163.770000       10.558414     7.212500   682.000000        2820.000000  3.187000e+03    22.600000        0.000000     0.000000     0.000000        0.000000
+50%         1.000000     0.122100   268.950000       10.928884    12.665000   707.000000        4139.958333  8.596000e+03    46.300000        1.000000     0.000000     0.000000        0.000000
+75%         1.000000     0.140700   432.762500       11.291293    17.950000   737.000000        5730.000000  1.824950e+04    70.900000        2.000000     0.000000     0.000000        0.000000
+max         1.000000     0.216400   940.140000       14.528354    29.960000   827.000000       17639.958330  1.207359e+06   119.000000       33.000000    13.000000     5.000000        1.000000
+
+Column names before processing:
+credit.policy
+purpose
+int.rate
+installment
+log.annual.inc
+dti
+fico
+days.with.cr.line
+revol.bal
+revol.util
+inq.last.6mths
+delinq.2yrs
+pub.rec
+not.fully.paid
+
+
+Column names after processing:
+int.rate
+installment
+log.annual.inc
+dti
+fico
+days.with.cr.line
+revol.bal
+revol.util
+inq.last.6mths
+delinq.2yrs
+pub.rec
+not.fully.paid
+purpose_all_other
+purpose_credit_card
+purpose_debt_consolidation
+purpose_educational
+purpose_home_improvement
+purpose_major_purchase
+purpose_small_business
+
+
+Target variable:
+credit.policy

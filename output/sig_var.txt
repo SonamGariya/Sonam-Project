@@ -1,0 +1,17 @@
+                                              Variable        p-value
+installment                                installment   1.753553e-03
+log.annual.inc                          log.annual.inc   5.499539e-23
+fico                                              fico   7.992250e-94
+days.with.cr.line                    days.with.cr.line   2.655441e-11
+revol.bal                                    revol.bal  2.089264e-120
+revol.util                                  revol.util   1.588606e-07
+inq.last.6mths                          inq.last.6mths  2.778582e-297
+delinq.2yrs                                delinq.2yrs   1.460217e-02
+not.fully.paid                          not.fully.paid   6.172076e-03
+purpose_all_other                    purpose_all_other   1.648679e-81
+purpose_credit_card                purpose_credit_card   1.861274e-81
+purpose_debt_consolidation  purpose_debt_consolidation   4.914070e-81
+purpose_educational                purpose_educational   4.049405e-81
+purpose_home_improvement      purpose_home_improvement   2.408658e-79
+purpose_major_purchase          purpose_major_purchase   1.298771e-79
+purpose_small_business          purpose_small_business   6.392146e-78
